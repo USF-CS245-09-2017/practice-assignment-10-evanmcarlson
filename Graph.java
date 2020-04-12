@@ -2,8 +2,8 @@ import java.util.List;
 
 public interface Graph {
 	
-	// Eventually, our graphs will include more functions than this
-	// ... but let's start here.
+	// this graph is extremely simplified
+	// ... but it's somewhere to start!
 	public void addEdge(int v1, int v2);
 	public List<Integer> topologicalSort();
 	public int[] neighbors(int vertex);
